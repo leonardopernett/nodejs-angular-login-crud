@@ -1,0 +1,19 @@
+<div class="row">
+	<div class="col-md-4 mx-auto">
+		<div class="card">
+			<div class="card-body">
+				<div class="card-body text-center">
+					<img src="https://dummyimage.com/300" class="card-img-top" alt="">
+					<div class="card-title">
+						<h4>{{book.title}}</h4>
+						<p>{{book.author}}</p>
+						<p>{{book.description}}</p>
+						<p>${{book.price}}</p>
+						<p>{{book.createdAt | date}}</p>
+						<a class="btn btn-primary btn-block" [routerLink]="['/' ]">back</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
